@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D330CE8-BC91-41CE-BDBA-9E2D704C4271}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frick.NET", "src\Frick.NET\Frick.NET.csproj", "{B36C9587-76FE-4D08-B2C6-556FCDB0F6A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frick.NET.Cli", "src\Frick.NET.Cli\Frick.NET.Cli.csproj", "{64922087-5D0E-4A35-8EFE-CC53955A8517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B36C9587-76FE-4D08-B2C6-556FCDB0F6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36C9587-76FE-4D08-B2C6-556FCDB0F6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36C9587-76FE-4D08-B2C6-556FCDB0F6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36C9587-76FE-4D08-B2C6-556FCDB0F6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64922087-5D0E-4A35-8EFE-CC53955A8517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64922087-5D0E-4A35-8EFE-CC53955A8517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64922087-5D0E-4A35-8EFE-CC53955A8517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64922087-5D0E-4A35-8EFE-CC53955A8517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B36C9587-76FE-4D08-B2C6-556FCDB0F6A6} = {0D330CE8-BC91-41CE-BDBA-9E2D704C4271}
+		{64922087-5D0E-4A35-8EFE-CC53955A8517} = {0D330CE8-BC91-41CE-BDBA-9E2D704C4271}
+	EndGlobalSection
+EndGlobal
